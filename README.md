@@ -2,29 +2,63 @@
 
 # 국민대 자율주행 경진대회 2026
 
-<img src="media/contest_poster.jpg" width="360" alt="제9회 국민대학교 자율주행 경진대회 포스터">
+**1/10 스케일 자율주행차가 신호등 · 라바콘 · 장애물 · 추월 미션 트랙을 3바퀴 완주하기까지**
 
+<sub>제9회 국민대학교 자율주행 경진대회 본선 · 2026.07 – 08 · 팀 KURiver</sub>
 
+<br>
 
-## **1/10 스케일 자율주행차로 미션 트랙 3바퀴를 도는 대회에 출전한 기록**
-제9회 국민대학교 자율주행 경진대회 본선 · 2026.07 – 08 · 팀 KURiver
+![ROS2](https://img.shields.io/badge/ROS2-Humble-22314E?logo=ros&logoColor=white)
+![Jetson](https://img.shields.io/badge/Jetson-Orin_NX-76B900?logo=nvidia&logoColor=white)
+![TensorRT](https://img.shields.io/badge/TensorRT-FP16-76B900?logo=nvidia&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8n-3_models-00FFFF)
+![TwinLiteNet+](https://img.shields.io/badge/TwinLiteNet+-segmentation-FF6F00)
 
-![3바퀴 완주 주행](media/completion_run.gif)
-
-## 주행 영상
+<br>
 
 <table>
   <tr>
-    <td align="center"><img src="media/run_lavacon.gif" height="360" alt="라바콘 구간 주행"></td>
-    <td align="center"><img src="media/run_track.gif" height="360" alt="추월과 지그재그 구간 주행"></td>
+    <td align="center"><img src="media/run_lavacon.gif" height="380" alt="라바콘 구간 주행"></td>
+    <td align="center"><img src="media/run_track.gif" height="380" alt="추월과 지그재그 구간 주행"></td>
   </tr>
   <tr>
-    <td align="center"><sub>라바콘 → 방해차량 구간 (2배속)</sub></td>
-    <td align="center"><sub>추월 → 지그재그 → 게이트 (2배속)</sub></td>
+    <td align="center"><sub><b>라바콘 → 방해차량 구간</b> · 2배속</sub></td>
+    <td align="center"><sub><b>추월 → 지그재그 → 게이트</b> · 2배속</sub></td>
   </tr>
 </table>
 
 </div>
+
+## 차량이 보는 화면
+
+<div align="center">
+<img src="media/completion_run.gif" width="720" alt="주행 중 디버그 화면 녹화">
+<br>
+<sub>3바퀴 완주 주행 중 Jetson 화면을 녹화한 영상입니다.</sub>
+</div>
+
+<br>
+
+| 창 | 보여주는 것 |
+|---|---|
+| `YOLO_신호등` | 4구 신호등 보드 위치와 색상(빨강 / 직진 / 좌회전) 실시간 판정 |
+| `obstacle_cut_debug` | 라이다 + YOLO 장애물 검출, 박스 면적 게이트, 근접 컷 발동 상태 |
+| `dl_lane` | TwinLiteNet+ 주행가능영역을 BEV로 변환한 화면과, Pure Pursuit가 따라가는 경로·조향값 |
+| 라이다 BEV | 라이다 점군과 트리거 ROI |
+
+## 개요
+
+<img src="media/contest_poster.jpg" width="220" align="right" alt="제9회 국민대학교 자율주행 경진대회 포스터">
+
+| | |
+|---|---|
+| 과제 | 4구 신호등 판단, 라바콘 지그재그, 고정장애물 회피, 방해차량 추월, 지름길 분기를 포함한 트랙 3바퀴 |
+| 차량 | 자이카 Y모델 + Jetson Orin NX 16GB, 170° 카메라, 2D 라이다, IMU, VESC |
+| 스택 | ROS2 Humble · TwinLiteNet+ · YOLOv8n · ONNX Runtime / TensorRT · Pure Pursuit · Optuna |
+| 결과 | 본선 출전 |
+| 내 역할 | 판단 구조 설계, **조향 제어 튜닝**, 장애물·라바콘 회피, YOLO 거리 게이트, 세그멘테이션 데이터셋, **Jetson·TensorRT 최적화** |
+
+<br clear="right">
 
 ## 개요
 

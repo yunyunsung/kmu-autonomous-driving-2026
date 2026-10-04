@@ -11,6 +11,19 @@
 
 ![3바퀴 완주 주행](media/completion_run.gif)
 
+## 주행 영상
+
+<table>
+  <tr>
+    <td align="center"><img src="media/run_lavacon.gif" height="360" alt="라바콘 구간 주행"></td>
+    <td align="center"><img src="media/run_track.gif" height="360" alt="추월과 지그재그 구간 주행"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>라바콘 → 방해차량 구간 (2배속)</sub></td>
+    <td align="center"><sub>추월 → 지그재그 → 게이트 (2배속)</sub></td>
+  </tr>
+</table>
+
 </div>
 
 ## 개요

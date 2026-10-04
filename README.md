@@ -60,16 +60,6 @@
 
 <br clear="right">
 
-## 개요
-
-| | |
-|---|---|
-| 과제 | 4구 신호등 판단, 라바콘 지그재그, 고정장애물 회피, 방해차량 추월, 지름길 분기를 포함한 트랙 3바퀴 |
-| 차량 | 자이카 Y모델 + Jetson Orin NX 16GB, 170° 카메라, 2D 라이다, IMU, VESC |
-| 스택 | ROS2 Humble · TwinLiteNet+ · YOLOv8n · ONNX Runtime / TensorRT · Pure Pursuit · Optuna |
-| 결과 | 본선 출전, 완주 |
-| 내 역할 | 판단 구조 설계, **조향 제어 튜닝**, 장애물·라바콘 회피, YOLO 거리 게이트, 세그멘테이션 데이터셋, **Jetson·TensorRT 최적화** |
-
 ## 내 파트
 
 ### 1. 판단 구조 설계: 이중 상태머신 → [docs/02](docs/02-system-architecture.md)

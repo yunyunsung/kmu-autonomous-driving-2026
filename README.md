@@ -10,11 +10,11 @@
 
 <br>
 
-![ROS2](https://img.shields.io/badge/ROS2-Humble-5B4BDB?style=for-the-badge&logo=ros&logoColor=white&labelColor=1F1A3A)
-![Jetson](https://img.shields.io/badge/Jetson-Orin_NX-7E52D6?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=1F1A3A)
-![TensorRT](https://img.shields.io/badge/TensorRT-FP16-A855C7?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=1F1A3A)
-![YOLOv8n](https://img.shields.io/badge/YOLOv8n-3_models-D2589B?style=for-the-badge&labelColor=1F1A3A)
-![TwinLiteNet+](https://img.shields.io/badge/TwinLiteNet%2B-segmentation-EE7A5A?style=for-the-badge&labelColor=1F1A3A)
+<img src="https://img.shields.io/badge/ROS2-Humble-5B4BDB?style=for-the-badge&logo=ros&logoColor=white&labelColor=1F1A3A" height="22" alt="ROS2">
+<img src="https://img.shields.io/badge/Jetson-Orin_NX-7E52D6?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=1F1A3A" height="22" alt="Jetson">
+<img src="https://img.shields.io/badge/TensorRT-FP16-A855C7?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=1F1A3A" height="22" alt="TensorRT">
+<img src="https://img.shields.io/badge/YOLOv8n-3_models-D2589B?style=for-the-badge&labelColor=1F1A3A" height="22" alt="YOLOv8n">
+<img src="https://img.shields.io/badge/TwinLiteNet%2B-segmentation-EE7A5A?style=for-the-badge&labelColor=1F1A3A" height="22" alt="TwinLiteNet+">
 
 </div>
 

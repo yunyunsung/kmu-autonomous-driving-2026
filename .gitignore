@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# 파인튜닝 가중치 — 각 전용 저장소에서 받아 배치 (src/README.md 참고)
+src/track_drive/track_drive/models/*.onnx
+src/track_drive/track_drive/models/*.onnx.data
+src/yolo_ros/signal_state_best_n.onnx
+src/yolo_ros/target_vehicle_best.onnx
+
+# TensorRT 엔진 캐시 — GPU·드라이버마다 다시 생성됨
+**/trt_cache/

@@ -28,8 +28,8 @@
     <td align="center"><img src="media/run_track.gif" height="380" alt="추월과 지그재그 구간 주행"></td>
   </tr>
   <tr>
-    <td align="center"><sub><b>라바콘 → 방해차량 구간</b> · 2배속</sub></td>
-    <td align="center"><sub><b>추월 → 지그재그 → 게이트</b> · 2배속</sub></td>
+    <td align="center"><sub><b>라바콘 → 방해차량 구간</b></sub></td>
+    <td align="center"><sub><b>추월 → 지그재그 → 게이트</b></sub></td>
   </tr>
 </table>
 

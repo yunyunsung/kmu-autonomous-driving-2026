@@ -58,7 +58,7 @@
   <tr><td width="90"><b>과제</b></td><td>4구 신호등 판단, 라바콘 지그재그, 고정장애물 회피, 방해차량 추월, 지름길 분기를 포함한 트랙 3바퀴</td></tr>
   <tr><td><b>차량</b></td><td>자이카 Y모델 + Jetson Orin NX 16GB, 170° 카메라, 2D 라이다, IMU, VESC</td></tr>
   <tr><td><b>스택</b></td><td>ROS2 Humble · TwinLiteNet+ · YOLOv8n · ONNX Runtime / TensorRT · Pure Pursuit · Optuna</td></tr>
-  <tr><td><b>결과</b></td><td>본선 출전</td></tr>
+  <tr><td><b>결과</b></td><td>본선 출전, 완주</td></tr>
   <tr><td><b>내 역할</b></td><td>판단 구조 설계 · <b>조향 제어 튜닝</b> · 장애물/라바콘 회피 · YOLO 거리 게이트 · 세그멘테이션 데이터셋 · <b>Jetson/TensorRT 최적화</b></td></tr>
 </table>
 

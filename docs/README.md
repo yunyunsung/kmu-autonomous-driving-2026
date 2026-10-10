@@ -14,6 +14,7 @@
 | 8 | [08-calibration.md](08-calibration.md) | 실측값과 설계값, 재측정 방법 |
 | 9 | [09-timeline.md](09-timeline.md) | 7월~8월 날짜별 진행 |
 | 10 | [10-lessons-learned.md](10-lessons-learned.md) | **설계 일지를 주제별로 재구성한 시행착오** |
+| 11 | [11-camera-distance.md](11-camera-distance.md) | YOLO 박스 크기 거리 게이트와 단안 3D 검출 논문의 연결 |
 | - | [archive/](archive/) | 압축 전 설계 일지 원문 (2,924줄 / 3,713줄) |
 
 ## 시간이 없다면
